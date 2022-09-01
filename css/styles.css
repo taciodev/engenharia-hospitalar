@@ -1,0 +1,324 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.bg-primary-color {
+  background-color: #ffffff;
+}
+
+.bg-secondary-color {
+  background-color: #ece8ea;
+}
+
+.bg-dark-color {
+  background-color: #050505;
+}
+
+.primary-color {
+  color: #050505;
+}
+
+.secondary-color {
+  color: #7a7a7a;
+}
+
+/* NAVBAR */
+
+#navbar {
+  border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover {
+  color: #7a7a7a;
+}
+
+#navbar a.active {
+  border-bottom: 1px solid #050505;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 120px;
+}
+
+.navbar-brand span {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#navbar-items .nav-item {
+  margin: 0 1em;
+}
+
+/* SLIDER */
+
+#slider {
+  margin-top: 8em;
+  margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+  bottom: 3em;
+}
+
+#slider .carousel-caption h5 {
+  font-size: 2.5em;
+  text-shadow: #000000 2px 2px;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+#slider .btn {
+  padding: 0.3 0.8em;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+  color: #111111;
+  font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #222222;
+  opacity: 0.8;
+}
+
+.carousel-indicators .active {
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  #slider .carousel-caption {
+    bottom: 15em;
+  }
+
+  #slider .carousel-caption h5 {
+    font-size: 4em;
+    text-shadow: #000000 2px 3px;
+  }
+
+  #slider .btn {
+    padding: 0.6 1.6em;
+    font-size: 1.2em;
+  }
+
+  .carousel-indicators {
+    bottom: 7em;
+  }
+}
+
+/* MINI BANNERS */
+
+#mini-banners {
+  margin-bottom: 4em;
+}
+
+#mini-banners .card {
+  padding: 2em 0.3em;
+  border-radius: 0;
+  margin-bottom: 1em;
+}
+
+#mini-banners i {
+  font-size: 4em;
+}
+
+#mini-banners .card-title {
+  margin-bottom: 1.5em;
+}
+
+
+@media (min-width: 768px) {
+  #mini-banners {
+    margin-top: -6em;
+  }
+}
+
+/* DESTAQUES */
+
+#featured-container {
+  margin-bottom: 4em;
+}
+
+.title {
+  font-size: 1.75em;
+  margin-bottom: 0.4em;
+  position: relative;
+}
+
+.title:before {
+  width: 75px;
+  border-top: 4px solid #7a7a7a;
+  content: "";
+  position: absolute;
+  bottom: 2.6em;
+}
+
+#featured-images {
+  margin-top: 2em;
+}
+
+#featured-images .col-md-4 {
+  position: relative;
+  cursor: pointer;
+}
+
+#icon-grid {
+  text-align: center;
+}
+
+#icon-grid .content-box i {
+  font-size: 1.2em;
+  margin-right: .2en;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.4em;
+  }
+  .title:before {
+    bottom: 1.5em;
+  }
+}
+
+/* INFO */
+
+#info-content {
+  margin-bottom: 4em;
+  padding: 4em 1em;
+}
+
+#info-numbers {
+  margin: 1.5em 0;
+}
+
+#info-banner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5em;
+}
+
+#info-numbers h3 {
+  font-size: 3em;
+}
+
+@media (min-width: 768px) {
+  #info-content {
+    padding: 3.5em;
+  }
+}
+
+/* CONTATO */
+
+#contact-area {
+  margin-bottom: 4em;
+}
+
+#msg-box ,
+#contact-form {
+  margin-top: 1.4em;
+}
+
+#msg-box p {
+  font-size: 22px;
+}
+
+#contact-form input[type="text"],
+#contact-form textarea {
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+#contact-form textarea {
+  resize: none;
+}
+
+/* FOOTER TOP */
+
+#footer {
+  padding: 3em 2em;
+}
+
+#footer-top {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+#footer-top,
+#footer-top i {
+  color: #ffffff;
+}
+
+#footer-top img {
+  width: 80px;
+}
+
+#social-icons {
+  display: flex;
+  text-align: right;
+  margin-right: 2em;
+}
+
+#social-icons i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#social-icons i:hover {
+  color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+
+#footer-details {
+  margin-bottom: 3em;
+  color: #7a7a7a;
+}
+
+
+#contact-container {
+  margin-right: .5em;
+}
+
+/* FOOTER BOTTOM */
+
+#footer-bottom {
+  border-top: 1px solid #7a7a7a;
+  padding-top: 2em;
+}
+
+@media (min-width: 768px) {
+  #contact-container {
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+  }
+
+  #contact-container p i {
+    padding: 0 2em;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+  }
+
+  #social-icons {
+    display: block;
+    margin-right: 0;
+  }
+}
